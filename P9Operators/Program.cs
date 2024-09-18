@@ -23,4 +23,4 @@ Console.WriteLine($"Minutes: {minutes}");
 Console.WriteLine($"Hours: {hours}"); 
 Console.WriteLine($"Days: {days}"); 
 Console.WriteLine($"{days}.{hours:D2}:{minutes:D2}:{seconds:D2}"); 
-Console.WriteLine($"In total, that's {days + (hours / 24.0) + (minutes / 1440.0) + (seconds / 86400.0)} Days.");
+Console.WriteLine($"In total, that's {(double) totalSeconds / 86400} days.");
