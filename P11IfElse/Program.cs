@@ -21,6 +21,6 @@ Console.WriteLine($"The maximum is: {(age > wholeNumber ? age : wholeNumber)}.")
 
 int greaterNumber = age > wholeNumber ? age : wholeNumber;
 
-bool isEven = greaterNumber % 2 == 0; // 0 remainders == an even number.
+bool isEven = greaterNumber % 2 == 0; 
 
 Console.WriteLine($"That number is an {(isEven ? "even" : "odd")} number.");
