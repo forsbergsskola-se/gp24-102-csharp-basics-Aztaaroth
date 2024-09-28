@@ -1,7 +1,7 @@
 ﻿
-
-
 using System.Globalization; 
+
+// dot (not comma) for numbers ex- 0.5 not 0,5
 Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture; 
 
 Console.WriteLine("Give me a number of seconds"); 
