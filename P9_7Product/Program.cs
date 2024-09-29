@@ -10,6 +10,6 @@ float input = int.Parse(Console.ReadLine());
 Console.WriteLine("Give me the second number");
 float input2 = int.Parse(Console.ReadLine());
 
-float result = input / input2;
+float result = input * input2;
 
-Console.WriteLine($"Result: {result.ToString("0.00").Replace('.', ',')}");
+Console.WriteLine($"Result: {result}");
